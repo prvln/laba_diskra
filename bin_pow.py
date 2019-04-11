@@ -26,7 +26,4 @@ b =  744329   #int(input('Введите b: '))
 c =  3899631002   #int(input('Введите c: '))
 d =  375476873   #int(input('Введите d: '))
 
-# Ответ: 3216689
-
 print((a * pow_h(x,d,p) + b* pow_h(x,c,p) + c * pow_h(x,b,p) + d)%p)
-
