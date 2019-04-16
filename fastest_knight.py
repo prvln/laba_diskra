@@ -50,7 +50,7 @@ if rasstt < 4: rasstt = 4
             
 last_rasst = pow(pow(bukva_2 - bukva_1, 2) + pow(chislo_2 - chislo_1, 2), 0.5)
 
-def volna(C,x,y):
+def volna(C,x,y):                           # zdes' nachinaetsya myaso :D
     
     global minimal
     global last_rasst
