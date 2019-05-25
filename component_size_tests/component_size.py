@@ -10,12 +10,12 @@ res = 0
 
 counter = 0
 
-for i in open('test6.in'):
+for i in open('test5.in'):
     a.append(i[:-1])
     b = i
     z += b.split()
 
-for i in open('test6.out'):
+for i in open('test5.out'):
     a.append(i[:-1])
     b = i
     out += b.split()
@@ -27,7 +27,7 @@ v = int(z[2])                       #int(input("Введите кол-во па�
 counter = n**0.24
 if counter < 4:
     counter = 4
-print(counter,'kkkk')
+#print(counter,'kkkk')
 
 out = int(out[0])
 

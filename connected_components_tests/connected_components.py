@@ -26,4 +26,5 @@ for i in range(2,len(z)):           # разбиваем на 2 массива �
         mas_x.append(int(z[i]))
 
 
-print(n,m,mas_x,mas_y)
+#def bfs(start):
+    
